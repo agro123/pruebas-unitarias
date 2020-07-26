@@ -17,7 +17,7 @@ describe('Pruebas de strings', () => {
         /* {2} numero de veces que se repite el digito */
     })
     test('Probando la funcion despide', () => {
-        expect(saludodespide).not.toMatch('Adios');
+        expect(saludodespide).not.toMatch('adios');
         /* El not niega la funcion toMatch */
     })
 })
